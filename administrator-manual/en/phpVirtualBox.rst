@@ -71,7 +71,7 @@ Advanced settings
 
 phpVirtualBox attempts to look like the user interface of VirtualBox, but you can enable the ``AdvancedSettings`` property (default is ``false``) and get more settings, only available by the command line ::
 
-    config setprop phpvirtualhost AdvancedSettings true
+    config setprop phpvirtualbox AdvancedSettings true
     signal-event phpvirtualbox-save
 
 VM ownership and quota
